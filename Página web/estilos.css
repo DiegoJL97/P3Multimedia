@@ -65,3 +65,8 @@ html, body { height: 100%; width: 100%; margin: 0; }
 	height: 8%;
 	background-color: #0b0559;
 }
+.descripcion h3 {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: left;
+}
