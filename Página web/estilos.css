@@ -1,7 +1,7 @@
 html, body { height: 100%; width: 100%; margin: 0; }
 
 .navegacion {
-	background-color: #1a1a1a;
+	background-color: #0b0559;
 	height: 10%;
 	text-align: center;
 }
@@ -35,7 +35,7 @@ html, body { height: 100%; width: 100%; margin: 0; }
 
 .introduccion {
 	height: 90%;
-	background-image: url("fondo.jpg");
+	background-image: url("image.png");
 	background-size: auto;
 	display: flex;
 	justify-content: center;
@@ -63,5 +63,5 @@ html, body { height: 100%; width: 100%; margin: 0; }
 
 .footer {
 	height: 8%;
-	background-color: #1a1a1a;
+	background-color: #0b0559;
 }
