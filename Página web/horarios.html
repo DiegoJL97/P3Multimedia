@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="es">
 	<head>
-		<title>Pagina inicial</title>
-		<script src="jquery-3.5.0.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="bootstrap-4.4.1-dist/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
-		<script src="main.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css" media="screen" charset="utf-8">
-		<link rel="stylesheet" href="estilos.css" type="text/css" media="screen" charset="utf-8">
+		<title>Horarios - El Retiro</title>
+		<script src="js/jquery-3.5.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="css/estilos.css" type="text/css" media="screen" charset="utf-8">
 	</head>
 	<body>
 		<nav class="navegacion">
@@ -14,7 +14,7 @@
 				<li><a href="horarios.html">Horarios</a></li>
 				<li><a href="localizacion.html">Localizacion</a></li>
 				<li><a href="acercade.html">Acerca de</a></li>
-				<li><a href="restaurantes.html">Servicios</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
 				<li><a href="ayuda.html">Ayuda</a></li>
 			</ul>
 		</nav>
@@ -23,24 +23,40 @@
 		</div>
 		<div class="contenedor">
 			<div class="descripcion">
-			<h2>Horarios</h2>
-			<p>	
-				
-				Abierto todos los días
-			</p>
-			<p>
-				Otoño - invierno: Octubre - marzo 06:00 - 22:00 h.
-
-				Primavera - Verano: Abril - septiembre 06:00 - 0:00 h.
-			</p>
-			<p>	
-				Actualmente cerrado hasta nuevo aviso como medida de contención en la lucha contra el coronavirus.
-
-			</p>
-			
+				<h2>Horarios</h2>
+				<p>	
+					El parque se encuentra abierto los 365 días del año, aunque actualmente está cerrado hasta nuevo aviso como medida de contención en 
+					la lucha contra el coronavirus.
+				</p>
+				<table class="table table-bordered">
+				  <thead>
+					<tr>
+					  <th scope="col">Estaciones</th>
+					  <th scope="col">Meses</th>
+					  <th scope="col">Horario</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td>Otoño - Invierno</td>
+					  <td>Octubre - Marzo</td>
+					  <td>06:00 - 22:00</td>
+					</tr>
+					<tr>
+					  <td>Primavera - Verano</td>
+					  <td>Abril - Septiembre</td>
+					  <td>06:00 - 00:00</td>
+					</tr>
+				  </tbody>
+				</table>
+				<p>	
+					Nota: El horario mostrado por Google Maps es incorrecto.
+				</p>
+				<p>	
+					Nota 2: En estos meses se están realizando obras de acondicionamiento en el Paseo de México, por lo que el acceso y horario de esta 
+					zona está restringido.
+				</p>
 			</div>
 		</div>
-		<footer class="footer">
-		</footer>
 	</body>
 </html>

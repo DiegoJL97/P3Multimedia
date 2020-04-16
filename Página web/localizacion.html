@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="es">
 	<head>
-		<title>Pagina inicial</title>
-		<script src="jquery-3.5.0.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="bootstrap-4.4.1-dist/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
-		<script src="main.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" type="text/css" media="screen" charset="utf-8">
-		<link rel="stylesheet" href="estilos.css" type="text/css" media="screen" charset="utf-8">
+		<title>Localizacion - El Retiro</title>
+		<script src="js/jquery-3.5.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lightbox.js"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="css/lightbox.css"/>
+		<link rel="stylesheet" href="css/estilos.css" type="text/css" media="screen" charset="utf-8">
 	</head>
 	<body>
 		<nav class="navegacion">
@@ -14,7 +16,7 @@
 				<li><a href="horarios.html">Horarios</a></li>
 				<li><a href="localizacion.html">Localizacion</a></li>
 				<li><a href="acercade.html">Acerca de</a></li>
-				<li><a href="restaurantes.html">Servicios</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
 				<li><a href="ayuda.html">Ayuda</a></li>
 			</ul>
 		</nav>
@@ -23,14 +25,32 @@
 		</div>
 		<div class="contenedor">
 			<div class="descripcion">
-			<h2>Mapa de Google Maps</h2>
-			<p align="center">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24304.295452061444!2d-3.69360704147271!3d40.40803262941541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228a0462ae9a5%3A0xb810b11635a3dc76!2sRetiro%2C%20Madrid!5e0!3m2!1ses!2ses!4v1586859779086!5m2!1ses!2ses" 
-			width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
-			</p>
+				<h2>¿Dónde se encuentra El Retiro?</h2>
+				<p>El Retiro se encuentra cerca del centro de Madrid, entre las calles Alfonso XII y Menendez Pelayo.</p>
+				<p>Los siguientes lugares se encuentran cerca de él:</p>
+				<ul>
+					<li>Puerto de Alcalá (613m).</li>
+					<li>Museo del Prado (757m).</li>
+					<li>Museo Naval (781m).</li>
+					<li>Plaza de Cibeles (867m).</li>
+					<li>Fuente de Neptuno (875m).</li>
+				</ul>
+				<h2>¿Cómo puedo llegar?</h2>
+				<p>Se puede llegar mediante:</p>
+				<ul>
+					<li><b>Metro:</b> parada Retiro, línea 2.</li>
+					<li><b>Autobuses:</b> 1, 2, 15, 19, 20, 26, 28, 51, 52, 61, 63, 68, 74 y 146.</li>
+				</ul>
+				<div class="contenedor3">
+					<a href="images/metro.jpg" data-lightbox="metro" data-title="Metro" data-alt="Metro"><img src="images/metro.jpg" alt="Metro"></a>
+					<a href="images/autobuses.jpg" data-lightbox="Autobus" data-title="Autobus" data-alt="Autobus"><img src="images/autobuses.jpg" alt="Autobus"></a>
+				</div>
+				<h2>Mapa de Google Maps</h2>
+				<p align="center">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24304.295452061444!2d-3.69360704147271!3d40.40803262941541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228a0462ae9a5%3A0xb810b11635a3dc76!2sRetiro%2C%20Madrid!5e0!3m2!1ses!2ses!4v1586859779086!5m2!1ses!2ses" 
+					width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+				</p>
 			</div>
 		</div>
-		<footer class="footer">
-		</footer>
 	</body>
 </html>
