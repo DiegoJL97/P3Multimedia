@@ -50,10 +50,23 @@ html, body {
 	align-items: center;
 }
 
-.introduccion h1 {
+.texto {
 	color: white;
+	width: 100%;
+	text-align: center;
 }
 
+.texto a {
+	color: white;
+	font-size: 135%;
+}
+
+/*
+.introduccion h1 {
+	color: white;
+	width: 100%;
+}
+*/
 .contenedor{
 	width: 75%;
 	margin: 0 auto;
@@ -136,4 +149,26 @@ html, body {
 
 .pregunta {
 	margin-bottom: 3%;
+}
+
+.relacionadasIndex {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.relacionadasIndex a {
+	color: black;
+}
+
+.relacionadasHorarios {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.relacionadasHorarios a {
+	color: black;
+	margin-right: 10%;
+	margin-left: 10%;
 }
