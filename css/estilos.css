@@ -31,7 +31,7 @@ html, body {
  }
 
  .navegacion ul li a{
-	 text-decoration: none;
+	 text-decoration: underline;
 	 font-family: century gothic;
 	 color: white;
  }
