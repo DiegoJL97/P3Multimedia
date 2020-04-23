@@ -44,6 +44,7 @@ html, body {
 .introduccion {
 	height: 90%;
 	background-image: url("../images/fondo.png");
+	background-color: #202226;
 	background-size: auto;
 	display: flex;
 	justify-content: center;
@@ -171,4 +172,8 @@ html, body {
 	color: black;
 	margin-right: 10%;
 	margin-left: 10%;
+}
+
+.enlaceContraste {
+	color: #0011FF;
 }
